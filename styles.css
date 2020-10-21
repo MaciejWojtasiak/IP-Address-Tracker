@@ -19,11 +19,12 @@ body {
 .header {
     width: 100%;
     height: 200px;
-    background-image: url('images/pattern-bg.png');
+    background-image: url('images/pattern-bg.png') no-repeat center center fixed;
     color: white;
     font-family: 'Rubik';
     display: block;
     text-align: center;
+    background-size: cover;
 }
 
 .header h2 {
