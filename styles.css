@@ -13,7 +13,7 @@
 
 
 .header {
-    width: 100%;
+    width: 100vw;
     height: 200px;
     background-image: url('./images/pattern-bg.png');
     color: white;
@@ -52,7 +52,29 @@
     cursor: pointer;
 }
 
+.error {
+    color: #C23934;
+}
+
+.error-message {
+    width: 360px;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: #C23934;
+}
 
 #map {
     height: calc(100vh - 200px);
+    width: 100vw;
+}
+
+@media(max-width: 460px) {
+    .form {
+        width: 240px;
+    }
+
+    .error-message {
+        width: 240px;
+    }
 }
