@@ -19,7 +19,7 @@ body {
 .header {
     width: 100%;
     height: 200px;
-    background-image: url('./images/pattern-bg.png');
+    background-image: url('images/pattern-bg.png');
     color: white;
     font-family: 'Rubik';
     display: block;
